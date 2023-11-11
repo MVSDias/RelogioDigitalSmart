@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>RelogioSmart</title>
+</head>
+<body onload="atualizaRelogio()">
+    <main>
+        <section class="relogios">
+            <div class="relogioDigital">
+                <span id="hDigital">00</span>:<span id="mDigital">00</span>:<span id="sDigital">00</span>
+            </div>
+            <div class="tela-smart">
+                <div class="RelogioSmart">
+                 <span class="h" id="hSmart">00</span><span class="doisPontos">:</span><span class="m" id="mSmart">00</span><span class="doisPontos">:</span><span class="s" id="sSmart">00</span>
+                </div>
+            
+                <div class="date">
+                 <span class="diaDaSemana" id="dSemana">dia 
+                 </span>
+                 <span id="day">dd/mm/aaaa</span>
+               </div>
+               <div class="temperatura">
+                <h1 class="cidade" id="city">city</h1>
+                <h2>🌡<span id="temperatura">00.0</span>ºC 💧<span id="umidade">0</span>%</h2>
+               </div>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+<script src="./index.js"></script>
+</html>
